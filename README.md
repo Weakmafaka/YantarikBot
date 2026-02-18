@@ -1,10 +1,9 @@
 # YantarickBot
 
-Telegram-бот с подписками, контентом и AI-помощником.
+Telegram-бот для помощи молодым родителями, где были собраны разные методички, уроки, игры и прочее для развития ребенка, так же есть реализация AI-помощника.
 
-**Что важно для публикации на GitHub**
-- Секреты и ссылки не хранятся в коде — все вынесено в переменные окружения.
-- Шаблон переменных: `/Users/weakmafaka/Desktop/PROJECTS/TelegramBot/YantarickBot/utils/.env.example`.
+
+
 
 **Требования**
 - Python 3.10+
@@ -23,7 +22,8 @@ cp utils/.env.example .env
 ```
 
 Ниже перечислены основные переменные окружения (заполняйте только то, что используете):
-
+- Шаблон переменных: `/Users/weakmafaka/Desktop/PROJECTS/TelegramBot/YantarickBot/utils/.env.example`.
+  
 - `TOKEN` — токен Telegram-бота.
 - `YOOKASSA_SHOP_ID` — ID магазина YooKassa.
 - `YOOKASSA_API_KEY` — API-ключ YooKassa.
